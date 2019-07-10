@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+.artists-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artists-title {
+    font-size: 140px;
+    color: #2E2E30;
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+}
+
+.artist-tile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80vw;
+    margin-top: 50px;
+}
+
+.artist-tile {
+    height: 500px;
+    width: 400px;
+    background: #2E2E30;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.artist-tile-name {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+}

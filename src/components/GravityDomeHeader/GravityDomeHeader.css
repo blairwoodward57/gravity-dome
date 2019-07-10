@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+
+.header-root {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100vw;
+    background: #2E2E30;
+}
+
+.header-title {
+    font-size: 40px;
+    color: white;
+}
+
+.nav-bar {
+    height: 40px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.go-to-music-button {
+    height: 40px;
+    font-size: 40px;
+    color: rgb(0, 208, 255);
+    background: #2E2E30;
+    border: none;
+    font-family: 'Notable', sans-serif;
+}
+
+.go-to-music-button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.go-to-artists-button {
+    height: 40px;
+    font-size: 40px;
+    color: rgb(0, 208, 255);
+    background: #2E2E30;
+    border: none;
+    font-family: 'Notable', sans-serif;
+}
+
+.go-to-artists-button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.go-to-merch-button {
+    height: 40px;
+    font-size: 40px;
+    color: rgb(0, 208, 255);
+    background: #2E2E30;
+    border: none;
+    font-family: 'Notable', sans-serif;
+}
+
+.go-to-merch-button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.gravity-dome-header-title {
+    height: 40px;
+    font-size: 40px;
+    color: white;
+    background: #2E2E30;
+    border: none;
+    font-family: 'Notable', sans-serif;
+}
+
+.gravity-dome-header-title:hover {
+    color: red;
+    cursor: pointer;
+}
+
+button:focus {outline:0;}
