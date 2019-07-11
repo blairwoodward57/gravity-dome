@@ -22,14 +22,21 @@
 }
 
 .artist-tile {
-    height: 500px;
+    height: 420px;
     width: 400px;
     background: #2E2E30;
     color: white;
     margin-bottom: 40px;
+    border-radius: 8px;
 }
 
 .artist-tile-name {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 24px;
+}
+
+.artist-tile-image {
+    width:400px;
+    height:400px;
+    border-radius: 0 0 10px 10px;
 }

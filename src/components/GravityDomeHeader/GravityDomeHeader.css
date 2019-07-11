@@ -10,11 +10,6 @@
     background: #2E2E30;
 }
 
-.header-title {
-    font-size: 40px;
-    color: white;
-}
-
 .nav-bar {
     height: 40px;
     width: 300px;
@@ -25,43 +20,43 @@
 
 .go-to-music-button {
     height: 40px;
-    font-size: 40px;
-    color: rgb(0, 208, 255);
+    font-size: 30px;
+    color: white;
     background: #2E2E30;
     border: none;
     font-family: 'Notable', sans-serif;
 }
 
 .go-to-music-button:hover {
-    color: red;
+    color: rgb(0, 255, 157);
     cursor: pointer;
 }
 
 .go-to-artists-button {
     height: 40px;
-    font-size: 40px;
-    color: rgb(0, 208, 255);
+    font-size: 30px;
+    color: white;
     background: #2E2E30;
     border: none;
     font-family: 'Notable', sans-serif;
 }
 
 .go-to-artists-button:hover {
-    color: red;
+    color: rgb(0, 255, 157);
     cursor: pointer;
 }
 
 .go-to-merch-button {
     height: 40px;
-    font-size: 40px;
-    color: rgb(0, 208, 255);
+    font-size: 30px;
+    color: white;
     background: #2E2E30;
     border: none;
     font-family: 'Notable', sans-serif;
 }
 
 .go-to-merch-button:hover {
-    color: red;
+    color: rgb(0, 255, 157);
     cursor: pointer;
 }
 
@@ -72,10 +67,11 @@
     background: #2E2E30;
     border: none;
     font-family: 'Notable', sans-serif;
+    margin-left: -140px;
 }
 
 .gravity-dome-header-title:hover {
-    color: red;
+    color: rgb(0, 255, 157);
     cursor: pointer;
 }
 
