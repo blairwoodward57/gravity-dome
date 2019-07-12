@@ -49,7 +49,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "Tile EP",
                 albumReleaseYear: 2019,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/Fuf90KX.jpg",
                 albumPriceCD: "$6",
                 albumPriceVinyl: "$10"
             },
