@@ -12,30 +12,30 @@ export const artistsProfiles = [
                 albumPriceVinyl: "$18"
             },
             {
-                albumTitle: "Swimming Lessons EP",
+                albumTitle: "Blessed EP",
                 albumReleaseYear: 2011,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/NkmEm5m.jpg",
                 albumPriceCD: "$4",
                 albumPriceVinyl: null
             },
             {
                 albumTitle: "Boat Colonies",
                 albumReleaseYear: 2012,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/Vo72tvk.jpg",
                 albumPriceCD: "$12",
                 albumPriceVinyl: "$20"
             },
             {
                 albumTitle: "Lucid Dreamscapes EP",
                 albumReleaseYear: 2012,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/32yLfjg.jpg",
                 albumPriceCD: "$4",
                 albumPriceVinyl: null
             },
             {
                 albumTitle: "Sports Vibes EP",
                 albumReleaseYear: 2013,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/XgF6nj8.png",
                 albumPriceCD: "$8",
                 albumPriceVinyl: "$15"
             }
@@ -343,7 +343,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "Sanctuary",
                 albumReleaseYear: 2019,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/N6WdQYH.jpg",
                 albumPriceCD: "$12",
                 albumPriceVinyl: "$25"
             }
