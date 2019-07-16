@@ -49,7 +49,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "Tile EP",
                 albumReleaseYear: 2019,
-                albumArtwork: "https://i.imgur.com/Fuf90KX.jpg",
+                albumArtwork: "https://i.imgur.com/lPlxmPe.jpg",
                 albumPriceCD: "$6",
                 albumPriceVinyl: "$10"
             },
@@ -98,7 +98,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "Rainbow Campfire",
                 albumReleaseYear: 2011,
-                albumArtwork: "https://i.imgur.com/BSMdYdN.png",
+                albumArtwork: "https://i.imgur.com/3tnX3AZ.jpg",
                 albumPriceCD: "$10",
                 albumPriceVinyl: "$18"
             },
@@ -154,7 +154,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "UltraSound",
                 albumReleaseYear: 2017,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/KwSxy3Q.jpg",
                 albumPriceCD: "$10",
                 albumPriceVinyl: "$22"
             }
