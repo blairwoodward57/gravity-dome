@@ -56,7 +56,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "Dark Window - Single",
                 albumReleaseYear: 2019,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/MlWNgOm.jpg",
                 albumPriceCD: "$3",
                 albumPriceVinyl: "$6"
             }
