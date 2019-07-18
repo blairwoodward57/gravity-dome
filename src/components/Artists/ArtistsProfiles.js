@@ -70,21 +70,21 @@ export const artistsProfiles = [
             {
                 albumTitle: "Kissed By A Rose On The Grave",
                 albumReleaseYear: 2006,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/Alh312R.png",
                 albumPriceCD: "$8",
                 albumPriceVinyl: null
             },
             {
                 albumTitle: "Sleepless In Seattle",
                 albumReleaseYear: 2007,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/YKvSMTc.jpg",
                 albumPriceCD: "$6",
                 albumPriceVinyl: null
             },
             {
                 albumTitle: "Ozark Mountain Paper Chase EP",
                 albumReleaseYear: 2007,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/dJOFThi.jpg",
                 albumPriceCD: "$7",
                 albumPriceVinyl: "$12"
             },
@@ -175,7 +175,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "Thirteen",
                 albumReleaseYear: 2010,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/HLjqO5E.jpg",
                 albumPriceCD: "$10",
                 albumPriceVinyl: "$18"
             }
