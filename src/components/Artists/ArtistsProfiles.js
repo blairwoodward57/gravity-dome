@@ -105,14 +105,14 @@ export const artistsProfiles = [
             {
                 albumTitle: "Who Is It? - Single",
                 albumReleaseYear: 2012,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/I1yfj9m.jpg",
                 albumPriceCD: "$4",
                 albumPriceVinyl: "$8"
             },
             {
                 albumTitle: "Demos",
                 albumReleaseYear: 2011,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/uIiuYbn.jpg",
                 albumPriceCD: "$5",
                 albumPriceVinyl: "$10"
             }
@@ -126,21 +126,21 @@ export const artistsProfiles = [
             {
                 albumTitle: "House Haunted",
                 albumReleaseYear: 2008,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/4tv4pWU.png",
                 albumPriceCD: "$10",
                 albumPriceVinyl: "$20"
             },
             {
                 albumTitle: "Live",
                 albumReleaseYear: 2009,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/mpp4Enk.jpg",
                 albumPriceCD: "$5",
                 albumPriceVinyl: null
             },
             {
                 albumTitle: "Demos",
                 albumReleaseYear: 2009,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/KSfCvaZ.jpg",
                 albumPriceCD: "$5",
                 albumPriceVinyl: null
             }
@@ -168,7 +168,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "Penny For My Thoughts",
                 albumReleaseYear: 2008,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/TyKSjon.jpg",
                 albumPriceCD: "$10",
                 albumPriceVinyl: "$18"
             },
@@ -189,7 +189,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "Fading Fast",
                 albumReleaseYear: 2012,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/E9aUuta.jpg",
                 albumPriceCD: "$12",
                 albumPriceVinyl: "$20"
             }
@@ -336,7 +336,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "Peach Balm",
                 albumReleaseYear: 2018,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/fccw5b8.jpg",
                 albumPriceCD: "$12",
                 albumPriceVinyl: "$25"
             },

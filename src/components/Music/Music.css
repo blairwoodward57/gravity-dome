@@ -1,3 +1,7 @@
+.music-root {
+    padding-bottom: 40px;
+}
+
 .music-title {
     font-size: 140px;
     color: #2E2E30;
@@ -53,5 +57,6 @@
 .album-price {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 100%;
 }

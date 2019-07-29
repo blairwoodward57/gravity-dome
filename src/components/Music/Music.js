@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import GravityDomeHeader from '../GravityDomeHeader/GravityDomeHeader.js';
 import './Music.css';
 import { artistsProfiles } from '../Artists/ArtistsProfiles';
+import { Link } from 'react-router-dom';
 
 class Music extends Component {
 
@@ -11,7 +12,7 @@ class Music extends Component {
         <GravityDomeHeader />
         <div className="music-title">
           Music
-              </div>
+        </div>
         <div className="music-blocks-container">
           {artistsProfiles.map((element, i) => (
             <div className="artist-music-tile">
@@ -23,6 +24,7 @@ class Music extends Component {
                     <div className="album-price">
                       <div>Disc - {element.albumPriceCD}</div>
                       <div>Vinyl - {element.albumPriceVinyl}</div>
+                      <p><Link to="/details">Add To Cart</Link></p>
                     </div>
                     <img className="album-artwork" src={element.albumArtwork} alt="" />
                   </div>
