@@ -1,0 +1,8 @@
+@import '../../styles/colors.scss';
+@import '../../styles/fonts.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/aesthetics.scss';
+
+.merch-title {
+    @include barcodePageTitle;
+}

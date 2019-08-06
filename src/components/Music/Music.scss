@@ -1,0 +1,91 @@
+@import '../../styles/colors.scss';
+@import '../../styles/fonts.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/aesthetics.scss';
+
+.music-root {
+    padding-bottom: 40px;
+}
+
+.music-title {
+    @include barcodePageTitle;
+}
+
+.music-blocks-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.artist-music-tile {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.discography-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+
+.artist-music-tile-name {
+    font: {
+        size: $largeFontSize;
+        family: $headerFont;
+    }
+    width: $fullPageWidth;
+    color: $baseDarkGray;
+}
+
+.album-container {
+    font: {
+        size: $extraSmallFontSize;
+        family: $artistTileFont;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: ($baseContainerHeight + 20);
+    width: $baseContainerWidth;
+    margin: 40px 20px;
+}
+
+.album-artwork {
+    transition: box-shadow .3s;
+    height: $baseContainerHeight;
+    width: $baseContainerWidth;
+    margin-top: 10px;
+    &:hover {
+        box-shadow: 0 0 11px $brightGreen;
+    }
+}
+
+.album-title {
+    font: {
+        size: $smallFontSize;   
+    }
+}
+
+.album-price {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.add-to-cart-link {
+    font: {
+        size: $extraSmallFontSize;
+        family: $artistTileFont;
+    }
+    color: $baseDarkGray;
+    background: $baseWhite;
+    border: none;
+    cursor: $hoverCursor;
+    &:hover {
+        color: $brightGreen;
+    }
+}

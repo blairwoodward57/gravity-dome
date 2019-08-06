@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import GravityDomeHeader from '../GravityDomeHeader/GravityDomeHeader.js';
-import './Artists.css';
+import './Artists.scss';
 import { artistsProfiles } from './ArtistsProfiles';
 
 class Artists extends Component {

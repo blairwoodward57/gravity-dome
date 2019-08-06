@@ -1,0 +1,27 @@
+@import './colors.scss';
+@import './fonts.scss';
+@import './aesthetics.scss';
+
+@mixin navButtons {
+    font: {
+        size: $smallFontSize;
+        family: $headerFont;
+    }
+    height: 40px;
+    color: $baseWhite;
+    background: $baseDarkGray;
+    border: none;
+    &:focus {outline:0;}
+    &:hover {
+        color: $brightGreen;
+        cursor: $hoverCursor;
+    }
+}
+
+@mixin barcodePageTitle($size: 0) {
+    font: {
+        size: $extraLargeFontSize + $size;
+        family: $barcodeFont;
+    }
+    color: $baseDarkGray;
+}

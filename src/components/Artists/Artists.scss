@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended+Text&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@import '../../styles/colors.scss';
+@import '../../styles/fonts.scss';
+@import '../../styles/mixins.scss';
 
 .artists-root {
     display: flex;
@@ -8,35 +11,35 @@
 }
 
 .artists-title {
-    font-size: 140px;
-    color: #2E2E30;
-    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    @include barcodePageTitle
 }
 
 .artist-tile-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 80vw;
+    width: ($fullPageWidth - 20);
     margin-top: 50px;
 }
 
 .artist-tile {
-    height: 420px;
-    width: 400px;
-    background: #2E2E30;
-    color: white;
+    height: ($baseContainerHeight + 20);
+    width: $baseContainerWidth;
+    background: $baseDarkGray;
+    color: $baseWhite;
     margin-bottom: 40px;
     border-radius: 8px;
 }
 
 .artist-tile-name {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 24px;
+    font: {
+        size: $smallFontSize;
+        family: $artistTileFont;
+    }
 }
 
 .artist-tile-image {
-    width:400px;
-    height:400px;
+    width: $baseContainerWidth;
+    height: $baseContainerHeight;
     border-radius: 0 0 10px 10px;
 }

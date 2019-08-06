@@ -201,16 +201,16 @@ export const artistsProfiles = [
         artistsBio: "",
         albums: [
             {
-                albumTitle: "Ocean Lungs/Folk Art",
+                albumTitle: "Ocean Lungs",
                 albumReleaseYear: 2007,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/DNgxvgD.jpg",
                 albumPriceCD: "$8",
                 albumPriceVinyl: null
             },
             {
                 albumTitle: "Grayhouse Lane",
                 albumReleaseYear: 2008,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/uklkBk6.jpg",
                 albumPriceCD: "$8",
                 albumPriceVinyl: null
             },
@@ -224,7 +224,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "Cotton Candy Blood",
                 albumReleaseYear: 2010,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/963mHCX.jpg",
                 albumPriceCD: "$10",
                 albumPriceVinyl: "$18"
             },

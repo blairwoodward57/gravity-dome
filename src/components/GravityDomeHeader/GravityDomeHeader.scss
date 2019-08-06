@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
+@import '../../styles/colors.scss';
+@import '../../styles/fonts.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/aesthetics.scss';
+
+.header-root {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: $fullPageWidth;
+    background: $baseDarkGray;
+}
+
+.nav-bar {
+    height: 40px;
+    width: ($baseContainerWidth + 270);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.go-to-music-button {
+   @include navButtons
+}
+
+.go-to-artists-button {
+    @include navButtons
+}
+
+.go-to-merch-button {
+    @include navButtons
+}
+
+.gravity-dome-header-title {
+    font: {
+        size: $mediumFontSize;
+        family: $headerFont;
+    }
+    height: 40px;
+    color: $baseWhite;
+    background: $baseDarkGray;
+    border: none;
+    margin: -12px;
+    cursor: $hoverCursor;
+    &:focus {outline:0;}
+    &:hover {
+        color: $brightGreen;
+    }
+}
+
+.header-login {
+    font: {
+        size: $smallFontSize;
+        family: $loginFont;
+    }
+    margin: 12px 0 0 20px;
+    color: $baseWhite;
+    cursor: $hoverCursor;
+    &:focus {outline:0;}
+    &:hover {
+        color: $brightGreen;
+    }
+}
+

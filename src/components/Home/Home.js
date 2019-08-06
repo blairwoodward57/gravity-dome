@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import GravityDomeHeader from '../GravityDomeHeader/GravityDomeHeader.js'
-import './Home.css';
+import './Home.scss';
 
 class Home extends Component {
 

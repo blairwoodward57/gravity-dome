@@ -87,6 +87,36 @@ passport.deserializeUser((id, done) => {
         })
 })
 
+app.get('/api/albums', (req, res) => {
+    const db = app.get("db");
+    db.get_albums()
+        .then(albums => {
+            res.status(200).send(albums)
+        })
+})
+
+app.get('/api/currentUser', (req, res) => {
+    const db = app.get("db");
+    const user = req.user;
+    // console.log('this is the req.user', user.id)
+    db.find_current_user([user.id])
+        .then(user => {
+            console.log('this is the user,', user[0].firstName, user[0].lastName)
+            res.status(200).send(user[0])
+        })
+})
+
+app.get('/api/artist/:artist_id/album/:id', (req, res) => {
+    const db = app.get("db");
+    const { artist_id } = req.params;
+    const { id } = req.params;
+    console.log('gotten album id', req.params.id)
+    db.get_album([id])
+      .then(album => {
+          res.status(200).send(album)
+      })
+})
+
 const port = 3006
 app.listen(port, () => {
     console.log(`server listening on port ${port}`)

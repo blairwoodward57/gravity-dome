@@ -1,0 +1,7 @@
+@import '../../styles/colors.scss';
+@import '../../styles/fonts.scss';
+@import '../../styles/mixins.scss';
+
+.album-details-title {
+    @include barcodePageTitle
+}

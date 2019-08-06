@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './GravityDomeHeader.css';
+import './GravityDomeHeader.scss';
 import { Link } from 'react-router-dom';
 import TiShoppingCart from 'react-icons/lib/ti/shopping-cart';
 import styled from 'styled-components';

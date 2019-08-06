@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import GravityDomeHeader from '../GravityDomeHeader/GravityDomeHeader.js';
-import './Music.css';
+import './Music.scss';
 import { artistsProfiles } from '../Artists/ArtistsProfiles';
 import { Link } from 'react-router-dom';
 
@@ -24,9 +24,9 @@ class Music extends Component {
                     <div className="album-price">
                       <div>Disc - {element.albumPriceCD}</div>
                       <div>Vinyl - {element.albumPriceVinyl}</div>
-                      <p><Link to="/details">Add To Cart</Link></p>
+                      <p><Link to="/details"><button  className="add-to-cart-link">Add To Cart</button></Link></p>
                     </div>
-                    <img className="album-artwork" src={element.albumArtwork} alt="" />
+                    <p><Link to="/details"><img className="album-artwork" src={element.albumArtwork} alt="" /></Link></p>
                   </div>
                 ))}
               </div>

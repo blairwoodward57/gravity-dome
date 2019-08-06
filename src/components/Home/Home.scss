@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended+Text&display=swap');
+@import '../../styles/colors.scss';
+@import '../../styles/fonts.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/aesthetics.scss';
+
+.home-title {
+    @include barcodePageTitle(100px)
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import GravityDomeHeader from '../GravityDomeHeader/GravityDomeHeader.js'
-import './Cart.css';
+import './Cart.scss';
 
 class Cart extends Component {
 
