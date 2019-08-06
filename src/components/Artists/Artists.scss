@@ -28,7 +28,7 @@
     background: $baseDarkGray;
     color: $baseWhite;
     margin-bottom: 40px;
-    border-radius: 8px;
+    @include topCornersRounded;
 }
 
 .artist-tile-name {
@@ -41,5 +41,5 @@
 .artist-tile-image {
     width: $baseContainerWidth;
     height: $baseContainerHeight;
-    border-radius: 0 0 10px 10px;
+    @include bottomCornersRounded
 }

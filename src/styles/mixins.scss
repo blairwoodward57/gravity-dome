@@ -25,3 +25,15 @@
     }
     color: $baseDarkGray;
 }
+
+@mixin allCornersRounded($size: 0) {
+    border-radius: 8px + $size;
+}
+
+@mixin bottomCornersRounded($size: 0) {
+    border-radius: 0 0 8px + $size 8px + $size;
+}
+
+@mixin topCornersRounded($size: 0) {
+    border-radius: 8px + $size 8px + $size 0 0;
+}
