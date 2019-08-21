@@ -157,6 +157,13 @@ export const artistsProfiles = [
                 albumArtwork: "https://i.imgur.com/KwSxy3Q.jpg",
                 albumPriceCD: "$10",
                 albumPriceVinyl: "$22"
+            },
+            {
+                albumTitle: "Zen",
+                albumReleaseYear: 2019,
+                albumArtwork: "https://i.imgur.com/W8KzsFn.jpg",
+                albumPriceCD: "$12",
+                albumPriceVinyl: "$25"
             }
         ]
     },
@@ -210,35 +217,35 @@ export const artistsProfiles = [
             {
                 albumTitle: "Grayhouse Lane",
                 albumReleaseYear: 2008,
-                albumArtwork: "https://i.imgur.com/uklkBk6.jpg",
+                albumArtwork: "https://i.imgur.com/zzYhDS4.jpg",
                 albumPriceCD: "$8",
                 albumPriceVinyl: null
             },
             {
                 albumTitle: "So Long, Sunset",
                 albumReleaseYear: 2009,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/5PSdOyz.jpg",
                 albumPriceCD: "$8",
                 albumPriceVinyl: "$15"
             },
             {
                 albumTitle: "Cotton Candy Blood",
                 albumReleaseYear: 2010,
-                albumArtwork: "https://i.imgur.com/963mHCX.jpg",
+                albumArtwork: "https://i.imgur.com/v2eUXJ3.jpg",
                 albumPriceCD: "$10",
                 albumPriceVinyl: "$18"
             },
             {
                 albumTitle: "RMXZ EP",
                 albumReleaseYear: 2010,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/6BGvJme.jpg",
                 albumPriceCD: "$4",
                 albumPriceVinyl: "$10"
             },
             {
                 albumTitle: "1988",
                 albumReleaseYear: 2012,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/TCRjoKH.jpg",
                 albumPriceCD: "$12",
                 albumPriceVinyl: "$22"
             }
@@ -252,7 +259,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "Blunt Horizon",
                 albumReleaseYear: 2010,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/kSWtPHw.jpg",
                 albumPriceCD: "$10",
                 albumPriceVinyl: "$20"
             }
@@ -266,7 +273,7 @@ export const artistsProfiles = [
             {
                 albumTitle: "Seeing Eye Dog",
                 albumReleaseYear: 2008,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/Oyy12iu.jpg",
                 albumPriceCD: "$10",
                 albumPriceVinyl: "$20"
             }
@@ -280,49 +287,49 @@ export const artistsProfiles = [
             {
                 albumTitle: "Duck World",
                 albumReleaseYear: 2012,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/hDIiyqY.jpg",
                 albumPriceCD: "$8",
                 albumPriceVinyl: null
             },
             {
                 albumTitle: "Duck Hell",
                 albumReleaseYear: 2012,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/XaH9LKW.jpg",
                 albumPriceCD: "$8",
                 albumPriceVinyl: null
             },
             {
                 albumTitle: "Duck Heaven",
                 albumReleaseYear: 2013,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/MqpQg6h.jpg",
                 albumPriceCD: "$8",
                 albumPriceVinyl: null
             },
             {
                 albumTitle: "57 Species Of Ducks",
                 albumReleaseYear: 2014,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/BHiPKUD.jpg",
                 albumPriceCD: "$10",
                 albumPriceVinyl: null
             },
             {
                 albumTitle: "Duck City",
                 albumReleaseYear: 2014,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/ctqL60S.jpg",
                 albumPriceCD: "$10",
                 albumPriceVinyl: "$20"
             },
             {
                 albumTitle: "2057",
                 albumReleaseYear: 2016,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/VOupErL.png",
                 albumPriceCD: "$10",
                 albumPriceVinyl: "$20"
             },
             {
                 albumTitle: "Bob Diamonds Time Cassette",
                 albumReleaseYear: 2017,
-                albumArtwork: "",
+                albumArtwork: "https://i.imgur.com/xuLMCdd.png",
                 albumPriceCD: "$12",
                 albumPriceVinyl: "$22"
             }
